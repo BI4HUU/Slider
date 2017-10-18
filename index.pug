@@ -1,0 +1,21 @@
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Slider
+	body
+		div.Slider
+			div
+				img(src="1.jpg", alt="")
+			div
+				img(src="2.jpg", alt="")
+			div
+				img(src="3.jpg", alt="")
+			div.Panel
+				div.bigButton.buttonFullScreen( onclick = 'fullScreen()' ) < >
+				div.bigButton.buttonLeft( onclick = 'verification()' ) <
+				div.bigButton.buttonPause( onclick = 'pause()' ) | |
+				div.bigButton.buttonRight( onclick = 'next()' ) >
+				div.wrapButtonNumber
+		link(href="style.css", rel="stylesheet")
+		script(src="script.js")
+		
