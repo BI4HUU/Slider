@@ -1,0 +1,42 @@
+*
+	padding: 0
+	margin: 0
+
+.Slider
+	position: relative
+	// height: 80%
+	width: 100%
+	overflow: hidden
+
+.slide
+	position: absolute
+	// height: 100%
+	// width: 100%
+	// overflow hidden
+	img
+		display block
+		width 100%
+		height 100%
+		background: red
+
+.wrapButtonNumber
+	position: absolute
+	bottom: 50px
+	z-index: 8888
+	width: 100%
+	opacity: 1
+	display: flex
+	justify-content: center
+	flex-wrap: nowrap
+
+.buttonNumber
+	height: 28px
+	width: 28px
+	border-radius 50%
+	background: #eeeeee
+	margin: 8px
+	&:hover
+		background: #888888
+
+.sliderButtonActive
+	background: #888888
